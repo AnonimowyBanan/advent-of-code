@@ -3,7 +3,7 @@ from utilis import read_input_data
 import hashlib
 
 
-class Day3(DayInterface):
+class Day4(DayInterface):
 
     def __init__(self, input_data: str):
         self.data = input_data
@@ -22,6 +22,6 @@ class Day3(DayInterface):
     def execute_part2(self):
         return self.__find_start_n_zeros(6)
 
-day3 = Day3(read_input_data(2015, 4))
-print(f'Day 4 part 1: {day3.execute_part1()}')
-print(f'Day 4 part 2: {day3.execute_part2()}')
+day4 = Day4(read_input_data(2015, 4))
+print(f'Day 4 part 1: {day4.execute_part1()}')
+print(f'Day 4 part 2: {day4.execute_part2()}')
