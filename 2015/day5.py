@@ -2,7 +2,6 @@ import string
 
 from day_interface import DayInterface
 from utilis import read_input_data
-from itertools import combinations_with_replacement
 
 
 class Day3(DayInterface):
